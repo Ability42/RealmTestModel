@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A4B043D1DE0CEE700581C0C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B043C1DE0CEE700581C0C /* Realm.framework */; };
+		4A4B043E1DE0CEE700581C0C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4B043C1DE0CEE700581C0C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7808924C1DE0BB4E00751F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7808924B1DE0BB4E00751F85 /* main.m */; };
 		7808924F1DE0BB4E00751F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7808924E1DE0BB4E00751F85 /* AppDelegate.m */; };
 		780892521DE0BB4E00751F85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780892511DE0BB4E00751F85 /* ViewController.m */; };
@@ -17,8 +19,6 @@
 		780892701DE0BB4E00751F85 /* RealmTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7808926F1DE0BB4E00751F85 /* RealmTestUITests.m */; };
 		780892821DE0BC8B00751F85 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 780892811DE0BC8B00751F85 /* Person.m */; };
 		780892911DE0BE0D00751F85 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 780892901DE0BE0D00751F85 /* Car.m */; };
-		780918E11DE0C9AA00844EC1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780918E01DE0C9AA00844EC1 /* Realm.framework */; };
-		780918E21DE0C9AA00844EC1 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 780918E01DE0C9AA00844EC1 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				780918E21DE0C9AA00844EC1 /* Realm.framework in Embed Frameworks */,
+				4A4B043E1DE0CEE700581C0C /* Realm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A4B043C1DE0CEE700581C0C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		780892471DE0BB4E00751F85 /* RealmTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7808924B1DE0BB4E00751F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7808924D1DE0BB4E00751F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		780892811DE0BC8B00751F85 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 		7808928F1DE0BE0D00751F85 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		780892901DE0BE0D00751F85 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
-		780918E01DE0C9AA00844EC1 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780918E11DE0C9AA00844EC1 /* Realm.framework in Frameworks */,
+				4A4B043D1DE0CEE700581C0C /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 		7808923E1DE0BB4D00751F85 = {
 			isa = PBXGroup;
 			children = (
-				780918E01DE0C9AA00844EC1 /* Realm.framework */,
+				4A4B043C1DE0CEE700581C0C /* Realm.framework */,
 				780892491DE0BB4E00751F85 /* RealmTest */,
 				780892631DE0BB4E00751F85 /* RealmTestTests */,
 				7808926E1DE0BB4E00751F85 /* RealmTestUITests */,

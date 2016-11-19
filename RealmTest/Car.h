@@ -7,11 +7,11 @@
 //
 
 #import <Realm/Realm.h>
-#import "Person.h"
+@class Person;
 
 @interface Car : RLMObject
 @property NSString *model;
-@property Person *owner;
+@property Person * owner;
 @end
 
 // This protocol enables typed collections. i.e.:

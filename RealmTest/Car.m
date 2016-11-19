@@ -7,13 +7,14 @@
 //
 
 #import "Car.h"
+#import "Person.h"
 
 @implementation Car
 
 
 + (NSDictionary *)linkingObjectsProperties {
     return @{
-             @"owners": [RLMPropertyDescriptor descriptorWithClass:Person.class propertyName:@"dogs"],
+             @"owners": [RLMPropertyDescriptor descriptorWithClass:Person.class propertyName:@"cars"]
              };
 }
 
